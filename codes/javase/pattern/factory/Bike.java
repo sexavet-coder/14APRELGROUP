@@ -1,0 +1,11 @@
+package factory;
+
+public class Bike implements Vehicle {
+
+    @Override
+    public void move() {
+
+        System.out.println("Bike hereket edir");
+    }
+
+}
